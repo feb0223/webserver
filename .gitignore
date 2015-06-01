@@ -1,0 +1,19 @@
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+# Gulp
+node_modules
+
+# Bower
+bower_components

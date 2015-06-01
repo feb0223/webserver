@@ -1,0 +1,13 @@
+{
+	"name": "webserver",
+	"version": "0.0.1",
+	"author": "",
+	"description": "webserver",
+	"main": "index.js",
+	"dependencies": {
+		"basic-auth-connect": "^1.0.0",
+		"express": "^4.12.3",
+		"serve-index": "^1.6.3",
+		"serve-static": "^1.9.2"
+	}
+}
