@@ -9,7 +9,7 @@ module.exports = function(rootDir) {
 	if (process.env.BASIC_AUTH_USER) {
 		app.use(basicAuth(process.env.BASIC_AUTH_USER, process.env.BASIC_AUTH_PASS));
 	}
-	app.use(serveIndex(rootDir));
+	app.use(serveIndex(rootDir, {'icons': true}));
 	app.use(serveStatic(rootDir));
 
 	var port = process.env.PORT || 3000;
